@@ -2,7 +2,6 @@
   "name": "pro_angular_todo",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run tscwatch\" \"npm run lite\" ",
     "tsc": "tsc",
@@ -18,16 +17,15 @@
     "@angular/compiler": "2.2.0",
     "@angular/core": "2.2.0",
     "@angular/forms": "2.2.0",
+    "@angular/platform-browser":"2.2.0",
     "@angular/platform-browser-dynamic": "2.2.0",
     "bootstrap": "4.0.0-alpha.4",
-    "classlist": "^1.0.1",
     "classlist.js": "1.1.20150312",
     "core-js": "^2.4.1",
     "express": "^4.15.2",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "^0.19.40",
-    "zone": "^0.3.4",
     "zone.js": "0.6.26"
   },
   "devDependencies": {
