@@ -18,7 +18,7 @@ var AppComponent = (function () {
         return this.model.user;
     };
     AppComponent.prototype.getTodoItems = function () {
-        return this.model.items;
+        return this.model.items.filter(function (item) { return !item.done; });
     };
     AppComponent = __decorate([
         core_1.Component({
